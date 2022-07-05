@@ -36,3 +36,17 @@ header a{
   grid-template-columns:3fr 1fr;
   GAP:100PX;
 }
+
+
+
+div.error{
+  padding:10px;
+  background:#ffefef;
+  color:red;
+  border:red;
+  border-radius:4px;
+  margin:20px 0;
+}
+input.error{
+  border:1px solid red;
+}
