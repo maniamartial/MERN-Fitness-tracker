@@ -28,7 +28,7 @@ const WorkoutForm=()=>{
             setLoad('');
             setReps('');
             setError(null);
-            setEmptyFields(json.emptyFields)
+            //setEmptyFields(json.emptyFields)
             console.log("New workout created ", json)
             dispatch({type:'CREATE_WORKOUT', payload:json})
         }
